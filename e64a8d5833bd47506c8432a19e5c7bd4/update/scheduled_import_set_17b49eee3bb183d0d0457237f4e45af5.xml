@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_import_set">
+    <scheduled_import_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <concurrent_import>false</concurrent_import>
+        <condition/>
+        <conditional>false</conditional>
+        <connection_override/>
+        <data_source display_value="S047 Catalogo de Sistemas">fed18a9c333dc7506c8432a19e5c7bf5</data_source>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <map/>
+        <max_drift/>
+        <name>Integração S047 x Business Application</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <order/>
+        <parent/>
+        <partition_method>roundRobin</partition_method>
+        <partition_script><![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]></partition_script>
+        <partition_size/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <record_source>regular</record_source>
+        <repeat_every/>
+        <run_as display_value="carlos.paiva@extreme.digital Bandiera Paiva">6f4c121e87e97210fa4042630cbb3525</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2026-07-03 18:16:49</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth/>
+        <show_connection_override>false</show_connection_override>
+        <synchronize_inserts>true</synchronize_inserts>
+        <sys_class_name>scheduled_import_set</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-07-03 18:17:25</sys_created_on>
+        <sys_id>17b49eee3bb183d0d0457237f4e45af5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Integração S047 x Business Application</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>scheduled_import_set_17b49eee3bb183d0d0457237f4e45af5</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-07-03 18:17:57</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
+    </scheduled_import_set>
+</record_update>

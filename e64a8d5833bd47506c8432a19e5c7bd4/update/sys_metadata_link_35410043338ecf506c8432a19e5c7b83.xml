@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d245b24c3bca8b90d0457237f4e45a1e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="jdbc_credentials">
+    <jdbc_credentials action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</application>
+        <applies_to>all</applies_to>
+        <authentication_key/>
+        <authentication_protocol/>
+        <classification>jdbc</classification>
+        <context_name/>
+        <credential_id/>
+        <credential_storage_vault display_value="CyberArk">2bb9bebab7462010eca29a85de11a96d</credential_storage_vault>
+        <credential_store_type>other</credential_store_type>
+        <lookup_key>credential_id</lookup_key>
+        <mid_list/>
+        <name>JDBC S047</name>
+        <order>100</order>
+        <password>﷞﷟﷒88c27d703be32610a1e3f65436e45a0a﷬﷔1﷬﷭7qTzuG2APJeB9DIWyyrdQQ==KR-4Uzq2E061k1-dz6jAQ-J4tDsBx75VUqs=﷮﷯</password>
+        <privacy_key/>
+        <privacy_protocol/>
+        <ssh_certificate/>
+        <ssh_passphrase/>
+        <ssh_private_key/>
+        <sys_class_name>jdbc_credentials</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-07-08 12:31:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d245b24c3bca8b90d0457237f4e45a1e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-07-08 12:32:34</sys_updated_on>
+        <tag>44c57ecc3bca8b90d0457237f4e45a89</tag>
+        <type>jdbc</type>
+        <use_context>false</use_context>
+        <use_high_security>false</use_high_security>
+        <user_name>I000950</user_name>
+    </jdbc_credentials>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-07-17 07:05:14</sys_created_on>
+        <sys_id>35410043338ecf506c8432a19e5c7b83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JDBC S047</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_metadata_link_35410043338ecf506c8432a19e5c7b83</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-07-17 07:05:14</sys_updated_on>
+        <tablename>discovery_credentials</tablename>
+    </sys_metadata_link>
+</record_update>

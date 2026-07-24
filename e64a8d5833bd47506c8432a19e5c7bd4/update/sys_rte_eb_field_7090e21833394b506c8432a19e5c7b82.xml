@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>owned_by</field>
+        <name>owned_by</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 19:22:14</sys_created_on>
+        <sys_id>7090e21833394b506c8432a19e5c7b82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>owned_by</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Sincronização S047 x Business Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</sys_rte_eb_entity>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_rte_eb_field_7090e21833394b506c8432a19e5c7b82</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 19:22:14</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>

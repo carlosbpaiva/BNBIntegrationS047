@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="DELETE">
+        <field>life_cycle_status</field>
+        <name>life_cycle_status</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 18:16:05</sys_created_on>
+        <sys_id>0471921833790b506c8432a19e5c7bfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>life_cycle_status</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Sincronização S047 x Busioness Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</sys_rte_eb_entity>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_rte_eb_field_0471921833790b506c8432a19e5c7bfa</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 18:16:05</sys_updated_on>
+    </sys_rte_eb_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</application>
+        <file_path/>
+        <instance_id>8585e3b72b5eae9c3ce2fcd2ce91bf87</instance_id>
+        <instance_name>bnbdev</instance_name>
+        <name>sys_rte_eb_field_0471921833790b506c8432a19e5c7bfa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field"><sys_rte_eb_field action="INSERT_OR_UPDATE"><field>life_cycle_status</field><name>life_cycle_status</name><sys_class_name>sys_rte_eb_field</sys_class_name><sys_created_by>carlos.paiva@extreme.digital</sys_created_by><sys_created_on>2026-06-26 18:16:05</sys_created_on><sys_id>0471921833790b506c8432a19e5c7bfa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>life_cycle_status</sys_name><sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package><sys_policy/><sys_rte_eb_definition display_value="Sincronização S047 x Busioness Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition><sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</sys_rte_eb_entity><sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope><sys_update_name>sys_rte_eb_field_0471921833790b506c8432a19e5c7bfa</sys_update_name><sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by><sys_updated_on>2026-06-26 18:16:05</sys_updated_on></sys_rte_eb_field></record_update>]]></payload>
+        <payload_hash>-723716372</payload_hash>
+        <record_name>life_cycle_status</record_name>
+        <reverted_from/>
+        <source>324acd5833bd47506c8432a19e5c7ba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 18:16:05</sys_created_on>
+        <sys_id>4c71921833790b506c8432a19e5c7bfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f05256a4a0000001</sys_recorded_at>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 18:16:05</sys_updated_on>
+        <type>RTE Entity Field</type>
+        <update_guid>4c719218fc790b50d5b4237a13ac42fb</update_guid>
+        <update_guid_history>4c719218fc790b50d5b4237a13ac42fb:-723716372</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 18:17:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field">sys_rte_eb_field</sys_db_object>
+        <sys_id>05b03793e1d940e7808e1f9b31e12a01</sys_id>
+        <sys_metadata>0471921833790b506c8432a19e5c7bfa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>life_cycle_status</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_scope_delete display_value="">3ed2dcec0fb143f09d535001e3090044</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_0471921833790b506c8432a19e5c7bfa</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_0471921833790b506c8432a19e5c7bfa">4c71921833790b506c8432a19e5c7bfc</sys_update_version>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 18:17:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

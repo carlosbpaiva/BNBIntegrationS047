@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_copy_operation">
+    <sys_rte_eb_copy_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Copy - u_de_descricao</name>
+        <operation_group/>
+        <order>1200</order>
+        <overwrite_existing_value>true</overwrite_existing_value>
+        <source_sys_rte_eb_field display_value="u_de_descricao">b282ce14337dc7506c8432a19e5c7b8c</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_copy_operation</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 19:24:56</sys_created_on>
+        <sys_id>6031629033794b506c8432a19e5c7b4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy - u_de_descricao</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Sincronização S047 x Business Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</sys_rte_eb_entity>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_rte_eb_copy_operation_6031629033794b506c8432a19e5c7b4d</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 19:24:56</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields>e031629033794b506c8432a19e5c7b49</target_sys_rte_eb_fields>
+        <type display_value="Copy">6cfbb456730000102b6265a751ab9e71</type>
+    </sys_rte_eb_copy_operation>
+</record_update>

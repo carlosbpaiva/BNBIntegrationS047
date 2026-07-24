@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>impTotemp</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="Import">36828e14337dc7506c8432a19e5c7bb6</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 17:11:00</sys_created_on>
+        <sys_id>fa828e14337dc7506c8432a19e5c7bbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impTotemp</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Sincronização S047 x Business Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_fa828e14337dc7506c8432a19e5c7bbc</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 17:11:00</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

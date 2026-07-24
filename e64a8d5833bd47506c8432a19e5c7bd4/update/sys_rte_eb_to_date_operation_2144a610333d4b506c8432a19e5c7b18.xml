@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_to_date_operation">
+    <sys_rte_eb_to_date_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <date_format>yyyy-MM-dd hh:mm:ss</date_format>
+        <is_conditional>false</is_conditional>
+        <name>Convert to Date - u_dt_cadastro</name>
+        <operation_group/>
+        <order>2100</order>
+        <source_sys_rte_eb_field display_value="u_dt_cadastro">8b82ce14337dc7506c8432a19e5c7bb9</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_to_date_operation</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 19:38:22</sys_created_on>
+        <sys_id>2144a610333d4b506c8432a19e5c7b18</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Convert to Date - u_dt_cadastro</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Sincronização S047 x Business Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</sys_rte_eb_entity>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_rte_eb_to_date_operation_2144a610333d4b506c8432a19e5c7b18</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 19:38:57</sys_updated_on>
+        <target_sys_rte_eb_field display_value="data_cadastro">1d44a610333d4b506c8432a19e5c7b13</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Convert to Date">d939451e730000102b6265a751ab9e6e</type>
+    </sys_rte_eb_to_date_operation>
+</record_update>

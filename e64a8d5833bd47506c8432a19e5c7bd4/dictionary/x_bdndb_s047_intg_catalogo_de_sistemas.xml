@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="148206d0337dc7506c8432a19e5c7bb2" extends="sys_import_set_row" label="S047 Catalogo de Sistemas" max_length="40" name="x_bdndb_s047_intg_catalogo_de_sistemas" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_publica_piloto_prod" label="tf_publica_piloto_prod" max_length="40" name="u_tf_publica_piloto_prod" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_proc_noturno" label="tf_proc_noturno" max_length="40" name="u_tf_proc_noturno" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dep_gestor" label="dep_gestor" max_length="40" name="u_dep_gestor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dt_suspen" label="dt_suspen" max_length="40" name="u_dt_suspen" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dt_ult_alt" label="dt_ult_alt" max_length="40" name="u_dt_ult_alt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_origem_sistema" label="nm_origem_sistema" max_length="40" name="u_nm_origem_sistema" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mat_cadastro" label="mat_cadastro" max_length="40" name="u_mat_cadastro" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dt_pri_impl" label="dt_pri_impl" max_length="40" name="u_dt_pri_impl" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=st_sistema" label="st_sistema" max_length="40" name="u_st_sistema" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_categoria" label="nm_categoria" max_length="40" name="u_nm_categoria" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sg_sis" label="sg_sis" max_length="40" name="u_sg_sis" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_iskey" label="tf_iskey" max_length="40" name="u_tf_iskey" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_pergunta_05" label="tf_pergunta_05" max_length="40" name="u_tf_pergunta_05" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_modalidade" label="nm_modalidade" max_length="40" name="u_nm_modalidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_arquitetura" label="nm_arquitetura" max_length="40" name="u_nm_arquitetura" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_nivel_criticidade" label="nm_nivel_criticidade" max_length="40" name="u_nm_nivel_criticidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_sistema" label="nm_sistema" max_length="60" name="u_nm_sistema" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dt_desativ" label="dt_desativ" max_length="40" name="u_dt_desativ" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sq_interna" label="sq_interna" max_length="40" name="u_sq_interna" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dt_ult_impl" label="dt_ult_impl" max_length="40" name="u_dt_ult_impl" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_fabricante" label="nm_fabricante" max_length="40" name="u_nm_fabricante" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dep_desenv_1" label="dep_desenv_1" max_length="40" name="u_dep_desenv_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mat_desenv_1" label="mat_desenv_1" max_length="40" name="u_mat_desenv_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_obriga_homo" label="tf_obriga_homo" max_length="40" name="u_tf_obriga_homo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cd_projeto" label="cd_projeto" max_length="40" name="u_cd_projeto" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dt_cadastro" label="dt_cadastro" max_length="40" name="u_dt_cadastro" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dep_desenv_2" label="dep_desenv_2" max_length="40" name="u_dep_desenv_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_processo_critico_negocio" label="tf_processo_critico_negocio" max_length="40" name="u_tf_processo_critico_negocio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_porte" label="nm_porte" max_length="40" name="u_nm_porte" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=de_descricao" label="de_descricao" max_length="2413" name="u_de_descricao" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=coordenadores" label="coordenadores" max_length="171" name="u_coordenadores" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mat_desenv_2" label="mat_desenv_2" max_length="40" name="u_mat_desenv_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_caminho_critico_processamento" label="tf_caminho_critico_processamento" max_length="40" name="u_tf_caminho_c__processamento" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_local_processamento" label="nm_local_processamento" max_length="40" name="u_nm_local_processamento" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mat_gestor" label="mat_gestor" max_length="40" name="u_mat_gestor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mat_ult_alt" label="mat_ult_alt" max_length="40" name="u_mat_ult_alt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cd_sistema" label="cd_sistema" max_length="40" name="u_cd_sistema" type="string"/>
+    </element>
+</database>

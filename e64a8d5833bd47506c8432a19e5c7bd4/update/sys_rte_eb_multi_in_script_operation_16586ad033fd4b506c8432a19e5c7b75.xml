@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_multi_in_script_operation">
+    <sys_rte_eb_multi_in_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Multiple Input Script - u_dep_desenv_1,u_dep_desenv_2</name>
+        <operation_group/>
+        <order>2900</order>
+        <script><![CDATA[(function (batch, output) {
+   for (var i = 0; i < batch.length; i++) {
+      var input = batch[i].input;
+      var depIDs = input.split('|');
+      var depSysIDs = [];
+      for (var j = 0; j < depIDs.length; j++) {
+         var numDep = depIDs[j];
+         if(!numDep) continue;
+         var depSysID = '';
+         new global.GlideQuery('cmn_department')
+         .where('id', numDep)
+         .select(['id', 'u_active'])
+         .forEach(function (dep) {
+            // Associa o Departamento mesmo que não esteja ativo
+            if (!depSysID) {
+               depSysID = dep.sys_id + '';
+            } else {
+               if (dep.u_active) {
+                  depSysID = dep.sys_id + '';
+               }
+            }
+         });
+         depSysIDs.push(depSysID);
+      }
+      output[i] = depSysIDs.join(',');
+   }
+})(batch, output);
+]]></script>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>7e82ce14337dc7506c8432a19e5c7b41,be82ce14337dc7506c8432a19e5c7b62</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_multi_in_script_operation</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 19:56:11</sys_created_on>
+        <sys_id>16586ad033fd4b506c8432a19e5c7b75</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Multiple Input Script - u_dep_desenv_1,u_dep_desenv_2</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Sincronização S047 x Business Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</sys_rte_eb_entity>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_rte_eb_multi_in_script_operation_16586ad033fd4b506c8432a19e5c7b75</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-07-22 20:54:14</sys_updated_on>
+        <target_sys_rte_eb_field display_value="lista_departamentos_desenvolvimento">d2586ad033fd4b506c8432a19e5c7b70</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Multiple Input Script">a5584ee4739000102b6265a751ab9eae</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_multi_in_script_operation>
+</record_update>

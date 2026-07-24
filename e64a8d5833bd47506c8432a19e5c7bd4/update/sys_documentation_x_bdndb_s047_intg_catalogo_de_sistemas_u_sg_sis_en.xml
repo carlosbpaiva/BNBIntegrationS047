@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sg_sis" label="sg_sis" language="en" table="x_bdndb_s047_intg_catalogo_de_sistemas">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sg_sis</element>
+            <help/>
+            <hint/>
+            <label>sg_sis</label>
+            <language>en</language>
+            <name>x_bdndb_s047_intg_catalogo_de_sistemas</name>
+            <plural>sg_sis</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-06-26 17:10:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sg_sis</sys_name>
+            <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+            <sys_update_name>sys_documentation_x_bdndb_s047_intg_catalogo_de_sistemas_u_sg_sis_en</sys_update_name>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-06-26 17:10:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

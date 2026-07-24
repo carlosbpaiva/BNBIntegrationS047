@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_to_date_operation">
+    <sys_rte_eb_to_date_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <date_format>yyyy-MM-dd hh:mm:ss</date_format>
+        <is_conditional>false</is_conditional>
+        <name>Convert to Date - u_dt_pri_impl</name>
+        <operation_group/>
+        <order>2300</order>
+        <source_sys_rte_eb_field display_value="u_dt_pri_impl">c782ce14337dc7506c8432a19e5c7bd6</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_to_date_operation</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 19:40:59</sys_created_on>
+        <sys_id>a3d46258333d4b506c8432a19e5c7b5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Convert to Date - u_dt_pri_impl</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Sincronização S047 x Busioness Applications">da620e90337dc7506c8432a19e5c7b62</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">7e828e14337dc7506c8432a19e5c7bb9</sys_rte_eb_entity>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_update_name>sys_rte_eb_to_date_operation_a3d46258333d4b506c8432a19e5c7b5b</sys_update_name>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 19:40:59</sys_updated_on>
+        <target_sys_rte_eb_field display_value="data_primeira_implantacao">e7d4e218333d4b506c8432a19e5c7bd5</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Convert to Date">d939451e730000102b6265a751ab9e6e</type>
+    </sys_rte_eb_to_date_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</application>
+        <file_path/>
+        <instance_id>8585e3b72b5eae9c3ce2fcd2ce91bf87</instance_id>
+        <instance_name>bnbdev</instance_name>
+        <name>sys_rte_eb_to_date_operation_a3d46258333d4b506c8432a19e5c7b5b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_to_date_operation"&gt;&lt;sys_rte_eb_to_date_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;date_format&gt;yyyy-MM-dd hh:mm:ss&lt;/date_format&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;Convert to Date - u_dt_pri_impl&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;2300&lt;/order&gt;&lt;source_sys_rte_eb_field display_value="u_dt_pri_impl"&gt;c782ce14337dc7506c8432a19e5c7bd6&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_to_date_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;carlos.paiva@extreme.digital&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 19:40:59&lt;/sys_created_on&gt;&lt;sys_id&gt;a3d46258333d4b506c8432a19e5c7b5b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Convert to Date - u_dt_pri_impl&lt;/sys_name&gt;&lt;sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg"&gt;e64a8d5833bd47506c8432a19e5c7bd4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Sincronização S047 x Busioness Applications"&gt;da620e90337dc7506c8432a19e5c7b62&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;7e828e14337dc7506c8432a19e5c7bb9&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="BNB Integration S047"&gt;e64a8d5833bd47506c8432a19e5c7bd4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_to_date_operation_a3d46258333d4b506c8432a19e5c7b5b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;carlos.paiva@extreme.digital&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 19:40:59&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="data_primeira_implantacao"&gt;e7d4e218333d4b506c8432a19e5c7bd5&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Convert to Date"&gt;d939451e730000102b6265a751ab9e6e&lt;/type&gt;&lt;/sys_rte_eb_to_date_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>389557222</payload_hash>
+        <record_name>Convert to Date - u_dt_pri_impl</record_name>
+        <reverted_from/>
+        <source>324acd5833bd47506c8432a19e5c7ba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 19:40:59</sys_created_on>
+        <sys_id>67d46258333d4b506c8432a19e5c7b5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f057321ea0000001</sys_recorded_at>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 19:40:59</sys_updated_on>
+        <type>RTE Entity Convert to Date Operation</type>
+        <update_guid>27d46258ee3d4b5087f4f3c325c0fa5d</update_guid>
+        <update_guid_history>27d46258ee3d4b5087f4f3c325c0fa5d:389557222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+        <sys_created_on>2026-06-26 19:41:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_to_date_operation">sys_rte_eb_to_date_operation</sys_db_object>
+        <sys_id>0c7e785f62384840809f00e094f35d90</sys_id>
+        <sys_metadata>a3d46258333d4b506c8432a19e5c7b5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Convert to Date - u_dt_pri_impl</sys_name>
+        <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+        <sys_scope_delete display_value="">3ed2dcec0fb143f09d535001e3090044</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_to_date_operation_a3d46258333d4b506c8432a19e5c7b5b</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_to_date_operation_a3d46258333d4b506c8432a19e5c7b5b">67d46258333d4b506c8432a19e5c7b5e</sys_update_version>
+        <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+        <sys_updated_on>2026-06-26 19:41:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
