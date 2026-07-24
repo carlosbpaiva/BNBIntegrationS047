@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci_business_app" version="2" view="bnb">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>452f3a113bdec790d0457237f4e45ab9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_seq_interna</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>cd2f3a113bdec790d0457237f4e45ab9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_sigla</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>452f3a113bdec790d0457237f4e45aba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_criticality</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>c92f3a113bdec790d0457237f4e45aba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_caminho_critico_processamento</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>412f3a113bdec790d0457237f4e45abb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_obrigatorio_homologacao</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>c52f3a113bdec790d0457237f4e45abb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_processamento_noturno</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>4d2f3a113bdec790d0457237f4e45abb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_processo_critico_negocio</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>c12f3a113bdec790d0457237f4e45abc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_publicacao_piloto_producao</element>
+            <list_id display_value="cmdb_ci_business_app" element="NULL" name="cmdb_ci_business_app" parent="NULL" relationship="NULL" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">812f3a113bdec790d0457237f4e45ab8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_id>492f3a113bdec790d0457237f4e45abc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci_business_app</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:41:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>812f3a113bdec790d0457237f4e45ab8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_business_app</sys_name>
+            <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_ci_business_app_bnb</sys_update_name>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:41:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="BNB" name="bnb">b268be193b9ac790d0457237f4e45afd</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

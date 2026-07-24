@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Relacionamentos" section_id="4bfa32993b1ec790d0457237f4e45ab1" sys_domain="global" table="cmdb_ci_business_app" version="3" view="bnb">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ui_ng_relation_formatter.xml</element>
+            <position>0</position>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:59</sys_created_on>
+            <sys_id>37fa36993b1ec790d0457237f4e45af0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter>
+            <sys_ui_section caption="Relacionamentos" display_value="Relacionamentos" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">4bfa32993b1ec790d0457237f4e45ab1</sys_ui_section>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:59</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Relacionamentos</caption>
+            <header>false</header>
+            <name>cmdb_ci_business_app</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bfa32993b1ec790d0457237f4e45ab1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_business_app</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+            <sys_update_name>sys_ui_section_4bfa32993b1ec790d0457237f4e45ab1</sys_update_name>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="BNB" name="bnb">b268be193b9ac790d0457237f4e45afd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0ffa32993b1ec790d0457237f4e45ab2" sys_domain="global" table="cmdb_ci_business_app" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bfa32993b1ec790d0457237f4e45ab8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">0ffa32993b1ec790d0457237f4e45ab2</sys_ui_form>
+            <sys_ui_section caption="Business Application" display_value="Business Application" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">47d87e913bdac790d0457237f4e45a49</sys_ui_section>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83fa32993b1ec790d0457237f4e45ad3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">0ffa32993b1ec790d0457237f4e45ab2</sys_ui_form>
+            <sys_ui_section caption="Informações Complementares do Sistema" display_value="Informações Complementares do Sistema" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">07fa32993b1ec790d0457237f4e45a87</sys_ui_section>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03fa32993b1ec790d0457237f4e45ad9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">0ffa32993b1ec790d0457237f4e45ab2</sys_ui_form>
+            <sys_ui_section caption="Coordenadores do Sistema" display_value="Coordenadores do Sistema" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">87fa32993b1ec790d0457237f4e45aae</sys_ui_section>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bfa32993b1ec790d0457237f4e45aeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">0ffa32993b1ec790d0457237f4e45ab2</sys_ui_form>
+            <sys_ui_section caption="Responsável pelas Informações do Sistema" display_value="Responsável pelas Informações do Sistema" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">cffa32993b1ec790d0457237f4e45aaf</sys_ui_section>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cffa32993b1ec790d0457237f4e45af1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">0ffa32993b1ec790d0457237f4e45ab2</sys_ui_form>
+            <sys_ui_section caption="Relacionamentos" display_value="Relacionamentos" name="cmdb_ci_business_app" sys_domain="global" view="b268be193b9ac790d0457237f4e45afd">4bfa32993b1ec790d0457237f4e45ab1</sys_ui_section>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_business_app</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
+            <sys_created_on>2026-07-24 20:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ffa32993b1ec790d0457237f4e45ab2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_business_app</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BNB Integration S047" source="x_bdndb_s047_intg">e64a8d5833bd47506c8432a19e5c7bd4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0ffa32993b1ec790d0457237f4e45ab2</sys_update_name>
+            <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
+            <sys_updated_on>2026-07-24 20:22:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="BNB" name="bnb">b268be193b9ac790d0457237f4e45afd</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
