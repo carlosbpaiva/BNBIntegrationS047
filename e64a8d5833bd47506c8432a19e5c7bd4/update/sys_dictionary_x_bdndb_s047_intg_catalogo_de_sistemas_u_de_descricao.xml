@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>2413</max_length>
+        <max_length>2813</max_length>
         <name>x_bdndb_s047_intg_catalogo_de_sistemas</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_scope display_value="BNB Integration S047">e64a8d5833bd47506c8432a19e5c7bd4</sys_scope>
         <sys_update_name>sys_dictionary_x_bdndb_s047_intg_catalogo_de_sistemas_u_de_descricao</sys_update_name>
         <sys_updated_by>carlos.paiva@extreme.digital</sys_updated_by>
-        <sys_updated_on>2026-07-03 18:18:08</sys_updated_on>
+        <sys_updated_on>2026-08-10 17:43:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

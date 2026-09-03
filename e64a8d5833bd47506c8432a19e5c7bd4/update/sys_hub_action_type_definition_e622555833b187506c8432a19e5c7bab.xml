@@ -1827,7 +1827,7 @@ ORDER BY s.[CD_SIS]
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="S047 - Catalogo de Sistemas">e622555833b187506c8432a19e5c7bab</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3174115833f187506c8432a19e5c7bf2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>4d1a7a483b8e8b90d0457237f4e45a79</snapshot>
+        <snapshot>2e68763d33fa83106c8432a19e5c7bf1</snapshot>
         <sys_created_by>carlos.paiva@extreme.digital</sys_created_by>
         <sys_created_on>2026-06-26 13:49:41</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -3766,6 +3766,6 @@ ORDER BY s.[CD_SIS]
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>e622555833b187506c8432a19e5c7bab</sys_id>
         <latest_snapshot>20749d1833f187506c8432a19e5c7b8a</latest_snapshot>
-        <compiler_build>glide-zurich-07-01-2025__patch10-hotfix3-07-01-2026_07-02-2026_1215.zip</compiler_build>
+        <compiler_build>glide-zurich-07-01-2025__patch12-07-16-2026_07-31-2026_1556.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

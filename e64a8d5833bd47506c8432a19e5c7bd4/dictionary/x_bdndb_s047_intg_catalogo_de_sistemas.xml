@@ -29,7 +29,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=dep_desenv_2" label="dep_desenv_2" max_length="40" name="u_dep_desenv_2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_processo_critico_negocio" label="tf_processo_critico_negocio" max_length="40" name="u_tf_processo_critico_negocio" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=nm_porte" label="nm_porte" max_length="40" name="u_nm_porte" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=de_descricao" label="de_descricao" max_length="2413" name="u_de_descricao" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=de_descricao" label="de_descricao" max_length="2813" name="u_de_descricao" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=coordenadores" label="coordenadores" max_length="171" name="u_coordenadores" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=mat_desenv_2" label="mat_desenv_2" max_length="40" name="u_mat_desenv_2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=tf_caminho_critico_processamento" label="tf_caminho_critico_processamento" max_length="40" name="u_tf_caminho_c__processamento" type="string"/>
